@@ -7,7 +7,7 @@ const userAge = parseInt(prompt('inserisci la tua età'));
 console.log(userAge);
 
 // il prezzo del biglietto è definito in base ai km (0.21 € al km)
-const price = (kmTravel * 0.21);
+let price = (kmTravel * 0.21);
 console.log(price);
 // va applicato uno sconto del 20% per i minorenni
 // va applicato uno sconto del 40% per gli over 65.
